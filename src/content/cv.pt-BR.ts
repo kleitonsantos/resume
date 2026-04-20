@@ -1,5 +1,7 @@
 import type { ResumeContent } from "../types";
 
+const photoUrl = `${import.meta.env.BASE_URL}foto.jpg`;
+
 export const cvPtBr: ResumeContent = {
   identity: {
     name: "Kleiton Bezerra dos Santos",
@@ -11,7 +13,7 @@ export const cvPtBr: ResumeContent = {
       "Profissional com mais de 25 anos em engenharia de software, com trajetória de desenvolvedor a arquiteto, líder técnico e gerente de engenharia. Lidera operações offshore, escala times distribuídos e sustenta relações de confiança entre Brasil e EUA, combinando profundidade técnica, visão operacional e proximidade com o negócio.",
     availability:
       "Foco em posições de liderança mais estratégicas, sem perder a capacidade de formar times, estruturar contexto e aproximar execução de objetivos de negócio.",
-    photo: "/foto.jpg",
+    photo: photoUrl,
   },
   contacts: [
     {
